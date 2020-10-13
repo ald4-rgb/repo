@@ -35,8 +35,7 @@ public class Region implements Serializable {
 
 	private String nombre;
 
-//simplemetne agregamos este valor por defecto 
-	private static final long serialVersionUID = 1L;
+
 
 	public Long getId() {
 		return id;
@@ -53,5 +52,6 @@ public class Region implements Serializable {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-
+	//simplemetne agregamos este valor por defecto 
+		private static final long serialVersionUID = 1L;
 }
